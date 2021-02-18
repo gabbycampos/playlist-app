@@ -7,9 +7,10 @@ Answer the following questions below:
 
 - What is the difference between SQL and PostgreSQL?
   - Postgres in an advanced version of SQL. It provides support to functions like foreign keys and subqueries.
+  SQL is the language that is used to store and query data. PostgreSQL uses this language and extends it to allow us to store information.
 
 - In `psql`, how do you connect to a database?
-  - \c 'database name'
+  - \c database name
 
 - What is the difference between `HAVING` and `WHERE`?
   - 'HAVING' is used to filter the returned results from a 'GROUP BY' clause. GROUP BY/HAVING are used with an aggregate function(functions used to combine multiple rows like COUNT, AVG)
